@@ -20,5 +20,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         Toast.makeText(this, "Están salados", Toast.LENGTH_SHORT).show();
-    }
+    }//Para calcular pixeles cuando quieres redimensionarlas, hay una ecuacion que es px=dp*(dpi/160)
 }
